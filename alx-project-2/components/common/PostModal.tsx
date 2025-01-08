@@ -1,18 +1,18 @@
 import { useState } from 'react';
+import { PostModalProps } from '../../interfaces';
+// interface PostModalProps {
+//   isOpen: boolean;
+//   onClose: () => void;
+//   onSubmit: (title: string, content: string) => void;
+// }
 
-interface PostModalProps {
-  isOpen: boolean;
-  onClose: () => void;
-  onSubmit: (title: string, content: string) => void;
-}
-
-const PostModal: React.FC<PostModalProps> = ({ isOpen, onClose, onSubmit }) => {
+const PostModal: React.FC<PostModalProps> = ({ isOpen, onClose, onSave }) => {
   const [title, setTitle] = useState('');
   const [content, setContent] = useState('');
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    onSubmit(title, content);
+    onSave(title, content);
     setTitle('');
     setContent('');
     onClose();

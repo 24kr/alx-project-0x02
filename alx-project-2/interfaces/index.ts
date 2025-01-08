@@ -26,3 +26,10 @@ export interface UserProps {
     zipcode: string;
   };
 }
+
+export interface PostModalProps {
+  isOpen: boolean;
+  onClose: () => void;
+//   onSubmit: (title: string, content: string) => void;
+  onSave: (title: string, content: string) => void; // Add this line
+}

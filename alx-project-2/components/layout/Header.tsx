@@ -4,14 +4,14 @@ const Header = () => {
   return (
     <header className="bg-gray-800 p-4">
       <nav className="container mx-auto flex justify-between">
-        <Link href="/home">
-          <a className="text-white">Home</a>
+        <Link href="/pages/home"
+           className="text-white">Home
         </Link>
-        <Link href="/about">
-          <a className="text-white">About</a>
+        <Link href="/pages/about"
+          className="text-white">About
         </Link>
-        <Link href="/posts">
-          <a className="text-white">Posts</a>
+        <Link href="/pages/posts"
+           className="text-white">Posts
         </Link>
       </nav>
     </header>
