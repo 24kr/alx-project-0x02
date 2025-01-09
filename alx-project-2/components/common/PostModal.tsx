@@ -1,10 +1,5 @@
 import { useState } from 'react';
 import { PostModalProps } from '../../interfaces';
-// interface PostModalProps {
-//   isOpen: boolean;
-//   onClose: () => void;
-//   onSubmit: (title: string, content: string) => void;
-// }
 
 const PostModal: React.FC<PostModalProps> = ({ isOpen, onClose, onSave }) => {
   const [title, setTitle] = useState('');
@@ -53,7 +48,7 @@ const PostModal: React.FC<PostModalProps> = ({ isOpen, onClose, onSave }) => {
               type="submit"
               className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             >
-              Submit
+              Save
             </button>
             <button
               type="button"

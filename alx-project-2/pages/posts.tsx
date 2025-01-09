@@ -25,8 +25,9 @@ const Posts: NextPage = () => {
   }, []);
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <>
       <Header />
+    <div className="container mx-auto px-4 py-8">
       <Head>
         <title>Posts</title>
       </Head>
@@ -42,6 +43,7 @@ const Posts: NextPage = () => {
         ))}
       </div>
     </div>
+    </>
   );
 };
 

@@ -5,8 +5,9 @@ import Button from '../components/common/Button';
 
 const About: NextPage = () => {
   return (
-    <div className="container mx-auto px-4 py-8">
+    <>
       <Header />
+    <div className="container mx-auto px-4 py-8">
       <Head>
         <title>About</title>
       </Head>
@@ -23,6 +24,7 @@ const About: NextPage = () => {
         </Button>
       </div>
     </div>
+    </>
   );
 };
 
