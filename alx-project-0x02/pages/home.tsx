@@ -1,5 +1,4 @@
 import type { NextPage } from 'next';
-// import { PostModalProps } from '../../interfaces';
 import Head from 'next/head';
 import Header from '../components/layout/Header';
 import Card from '../components/common/Card';

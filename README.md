@@ -1,4 +1,4 @@
-# ALX Project 2
+# Alx-project-0x02
 
 This project is a sample Next.js application with TypeScript and Tailwind CSS. It includes features such as basic routing, reusable components, and data fetching from an API.
 
@@ -23,7 +23,7 @@ Open http://localhost:3000 in your browser to see the app in action.
 
 
 
-   git clone https://github.com/your-username/alx-project-2.git
+   git clone https://github.com/24kr/alx-project-0x02-setup.git
    cd alx-project-2
 
 npm install

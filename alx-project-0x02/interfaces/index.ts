@@ -1,3 +1,4 @@
+
 export interface CardProps {
   title: string;
   content: string;
@@ -30,6 +31,5 @@ export interface UserProps {
 export interface PostModalProps {
   isOpen: boolean;
   onClose: () => void;
-//   onSubmit: (title: string, content: string) => void;
-  onSave: (title: string, content: string) => void; // Add this line
+  onSave: (title: string, content: string) => void;
 }
