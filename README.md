@@ -1,4 +1,4 @@
-# Alx-project-0x02
+# Next.js Project Setup and Basics.
 
 This project is a sample Next.js application with TypeScript and Tailwind CSS. It includes features such as basic routing, reusable components, and data fetching from an API.
 
